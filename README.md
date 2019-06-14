@@ -7,10 +7,10 @@ HeterogeneousEndogenousEffects: Main script that executes an example with Erdos 
 
 estimateHEEM: Main function that implement the two stage LASSO estimator. 
 
-  -Inputs:  y: outcome of interest. 
-            X: exogeneous variable.
-            M: adjacency matrix of network.
-            ertol: error tolerance for the LASSO estimator.
-  -Output:  hateta: debiased estimator.
-            betaEsts2: direct two stage LASSO estimator (without debiasing).
-            V: standard error of the debiased estimator.
+    - Inputs:  y: outcome of interest. 
+               X: exogeneous variable.
+               M: adjacency matrix of network.
+               ertol: error tolerance for the LASSO estimator.
+    - Output:  hateta: debiased estimator.
+               betaEsts2: direct two stage LASSO estimator (without debiasing).
+               V: standard error of the debiased estimator.
