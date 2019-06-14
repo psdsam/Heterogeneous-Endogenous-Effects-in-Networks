@@ -4,11 +4,13 @@ Matlab code to implement the two stage LASSO process as proposed in [Peng (2019)
 This package requires CVX solver which can be downloaded from [here](http://cvxr.com/cvx/)
 
 HeterogeneousEndogenousEffects: Main script that executes an example with Erdos Renyi network or Small-World network.
+
 estimateHEEM: Main function that implement the two stage LASSO estimator. 
-      Inputs: y: outcome of interest. 
-              X: exogeneous variable.
-              M: adjacency matrix of network.
-              ertol: error tolerance for the LASSO estimator.
-      Output: hateta: debiased estimator.
-              betaEsts2: direct two stage LASSO estimator (without debiasing).
-              V: standard error of the debiased estimator.
+
+      * Inputs: * y: outcome of interest. 
+                * X: exogeneous variable.
+                * M: adjacency matrix of network.
+                * ertol: error tolerance for the LASSO estimator.
+      * Output: * hateta: debiased estimator.
+                * betaEsts2: direct two stage LASSO estimator (without debiasing).
+                * V: standard error of the debiased estimator.
