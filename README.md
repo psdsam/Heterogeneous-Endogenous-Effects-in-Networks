@@ -1,5 +1,8 @@
 # Heterogeneous-Endogenous-Effects-in-Networks
-Matlab code to implement the two stage LASSO process as proposed in [Peng (2019)](https://static1.squarespace.com/static/59c5cb01197aea917f5f20b2/t/5c9c0e3f53450a5ff8d86f69/1553731138293/Heterogeneous+Endogenous+Effects+in+Networks.pdf)
+Matlab code to implement the two stage LASSO process as proposed in [Peng (2019)](https://static1.squarespace.com/static/59c5cb01197aea917f5f20b2/t/5d43ac603f688400011859c4/1564716131476/HeterogeneousEndogenousEffectsinNetworks.pdf)
+
+Code to replicate the empirical application in the paper is in the folder: empirical replication  
+    The micro finance dataset is downloaded from https://web.stanford.edu/~jacksonm/Data.html
 
 This package requires CVX solver which can be downloaded from [here](http://cvxr.com/cvx/)
 
@@ -14,3 +17,5 @@ estimateHEEM: Main function that implement the two stage LASSO estimator.
     - Output:  hateta: debiased estimator.
                betaEsts2: direct two stage LASSO estimator (without debiasing).
                V: standard error of the debiased estimator.
+               
+               
